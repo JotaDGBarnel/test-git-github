@@ -8,10 +8,14 @@ git add file.ext || git add . <> git restore file.ext || git restore .
 
 git commit -m "message" <> git reset --soft HEAD^ (to stagging area) || git reset HEAD^ (to working directory) || git reset --hard HEAD^ (deletes every change)
 
-git checkout ID || git checkout master
+git checkout ID || git checkout master || git checkout branch
 
 git show || git show 'COMMITID'|| git show HEAD
 
 git remote -v / git remote add NAME 'URL'
 
 git push -u NAME BRANCH
+
+git branch || git branch -r (show remote branches) || git branch -a (show all branches)
+
+git branch NAME (to create)
