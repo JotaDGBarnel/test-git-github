@@ -1,6 +1,6 @@
 working directory -> stagging area -> local repository -> remote repository
 git init          -> git add       -> git commit       -> git push
-                  <- git restore   <- git reset
+                  <- git restore   <- git reset        <- git fetch
 
 git init / git status / git log || git log --oneline
 
@@ -9,3 +9,7 @@ git add file.ext || git add . <> git restore file.ext || git restore .
 git commit -m "message" <> git reset --soft HEAD^ (to stagging area) || git reset HEAD^ (to working directory) || git reset --hard HEAD^ (deletes every change)
 
 git checkout ID || git checkout master
+
+git show || git show 'COMMITID'|| git show HEAD
+
+git remote -v / git remote add NAME 'URL'
