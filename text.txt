@@ -18,4 +18,6 @@ git push -u NAME BRANCH
 
 git branch || git branch -r (show remote branches) || git branch -a (show all branches)
 
-git branch NAME (to create)
+git branch NAME (to create) <> git branch -d BRANCH (to delete)
+
+git merge BRANCH (para fusionar)
