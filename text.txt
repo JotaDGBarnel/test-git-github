@@ -13,3 +13,5 @@ git checkout ID || git checkout master
 git show || git show 'COMMITID'|| git show HEAD
 
 git remote -v / git remote add NAME 'URL'
+
+git push -u NAME BRANCH
